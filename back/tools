@@ -1,0 +1,18 @@
+class King:
+    pass
+
+class Queen:
+    pass
+
+class Rook:
+    pass
+
+class Knight:
+    pass
+
+class Pawn:
+    pass
+
+class Bishop:
+    pass
+
