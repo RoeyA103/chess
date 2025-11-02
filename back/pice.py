@@ -8,5 +8,7 @@ class Piece:
 
     def __str__(self):
         return self.symbol_white if self.color == "white" else self.symbol_black
-p = Piece("white", "♔", "♚")
-print(p.__str__())  # Returns "♔"
+
+if __name__ == "__main__":
+    p = Piece("white", "♔", "♚")
+    print(p.__str__())  # Returns "♔"
